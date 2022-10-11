@@ -1,41 +1,91 @@
-#head {
-    margin: auto;
-    padding: 5px;
-    width: 600px;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #8ecae6;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    margin-top: 15px;
+
+}
+#head {
+      padding: 5px;
+      width: 600px;
     text-align: center;
     font-family: "Lato";
     font-size: 50px;
-    background-color: beige;
-    border-style: ridge;
+    background-color: #023047;
+    color: #fb8500;
+    border-radius: 10px;
+
     
+}
+
+#pelis{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
 }
 
 #contenedor {
     text-align: center;
-    border-style: ridge;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #219ebc;
+    color: #023047;
+    width: 400px;
     height: 200px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 
 }
-
-#form {
+#input{
+    display: flex;
+    justify-content: center;
     margin-top: 50px;
-    align-items: center;
-    text-align: center;
     
 }
 
-.btn {
-    margin-left: auto;
-    margin-right: auto;
+#peliculaz{
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    background-color: #219ebc;
+    color: #023047;
+    font-size: 18px;
 }
 
-body {
-    background-color:whitesmoke
+#boton{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
 }
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #f3603b;
+    cursor: pointer;
+  }
+
+
+.btn {
+  background-color: #fb8500;
+  border: none;
+  width: 134px;
+  height: 44px;
+  border-radius: 50px;
+  color: #ffffff;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
